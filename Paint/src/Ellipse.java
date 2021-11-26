@@ -24,7 +24,7 @@ public class Ellipse extends Figure{
     }
 
     public void draw(Graphics g){
-        g.setColor(this.Color);
+        g.setColor(getColor());
         g.fillOval(getX(),getY(),getSemiAxisX(),getSemiAxisY());
     }
 
